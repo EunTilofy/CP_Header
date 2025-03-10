@@ -13,8 +13,8 @@ template<class T1, class T2> bool cmax(T1 &x, const T2 &y) { if (x<y) { x=y; ret
 istream &operator>>(istream &cin, lll &x) { x=0; static string s; cin>>s; for (char c:s) x=x*10+(c-'0'); return cin; }
 ostream &operator<<(ostream &cout, lll x) { static char s[60]; int tp=1; s[0]='0'+(x%10); while (x/=10) s[tp++]='0'+(x%10); while (tp--) cout<<s[tp]; return cout; }
 #if !defined(ONLINE_JUDGE)
-#include "CP_header/IO.h"
-#include "CP_header/defs.h"
+#include "CP_Header/IO.h"
+#include "CP_Header/defs.h"
 #else
 #define dbg(...) ;
 #define dbgx(...) ;
