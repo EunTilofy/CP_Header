@@ -1,6 +1,6 @@
 #include "bits/stdc++.h"
 using namespace std;
-using ll = long long; using ull = unsigned long long; using lll = __int128_t;
+using ll = long long; using ull = unsigned long long; using lll = __int128_t; using db = double; using ld = long double;
 using pii = pair<int, int>; using pll = pair<ll, ll>;
 template<class T, class U> istream& operator>>(istream& is, pair<T, U>& a) { return is >> a.first >> a.second; }
 template<size_t I = 0, class... Ts> void read_tuple(istream& is, tuple<Ts...>& t) { if constexpr (I < sizeof...(Ts)) is >> get<I>(t), read_tuple<I + 1>(is, t); }
